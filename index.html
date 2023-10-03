@@ -3,28 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seleccionar Usuario</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Enviar mensaje por WhatsApp</title>
 </head>
 <body>
     <h1>Selecciona un usuario:</h1>
     <form id="userForm">
         <label for="user1">
-            <input type="checkbox" id="user1" name="user" value="Usuario 1"> Usuario 1
-        </label><br>
+            <input type="checkbox" id="user1" name="user" value="Usuario 1" data-nombre="Itzi" data-apellido="Esparza" data-telefono="524776296253"> Alex
+        </label>
+        <br>
         <label for="user2">
-            <input type="checkbox" id="user2" name="user" value="Usuario 2"> Usuario 2
-        </label><br>
+            <input type="checkbox" id="user2" name="user" value="Usuario 2" data-nombre="Alejandra" data-apellido="Moreno" data-telefono="524777270615"> Marcelo
+        </label>
+        <br>
         <label for="user3">
-            <input type="checkbox" id="user3" name="user" value="Usuario 3"> Usuario 3
-        </label><br>
-        <label for="user4">
-            <input type="checkbox" id="user4" name="user" value="Usuario 4"> Usuario 4
-        </label><br>
-        <label for="user5">
-            <input type="checkbox" id="user5" name="user" value="Usuario 5"> Usuario 5
-        </label><br>
-        <button type="button" onclick="mostrarUsuarioSeleccionado()">Mostrar Usuario Seleccionado</button>
+            <input type="checkbox" id="user3" name="user" value="Usuario 3" data-nombre="Alejandro" data-apellido="Ramirez" data-telefono="524776506751"> Ale
+        </label>
+        <br>
+        <!-- Agregar más checkboxes aquí -->
+        <button type="button" id="whatsapp-button">Enviar Mensaje por WhatsApp</button>
     </form>
 
     <script src="script.js"></script>
